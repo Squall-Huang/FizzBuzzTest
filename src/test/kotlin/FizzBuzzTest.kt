@@ -24,4 +24,11 @@ class FizzBuzzTest {
         val actual = fizzBuzz.convert(5)
         Assertions.assertEquals("buzz",actual)
     }
+
+    @Test
+    fun `number 15 should return fizzbuzz`() {
+        val fizzBuzz = FizzBuzz()
+        val actual = fizzBuzz.convert(15)
+        Assertions.assertEquals("fizz buzz",actual)
+    }
 }
