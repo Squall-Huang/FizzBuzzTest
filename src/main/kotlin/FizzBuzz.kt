@@ -1,13 +1,17 @@
 class FizzBuzz {
     fun convert(number: Int): String {
-        if (number % 3 == 0 && number % 5 == 0) {
-            return "fizz buzz"
-        } else if (number % 3 == 0) {
-            return "fizz"
-        } else if (number % 5 == 0) {
-            return "buzz"
+        return when {
+            number % 3 == 0 && number % 5 == 0 -> {
+                "fizz buzz"
+            }
+            number % 3 == 0 -> {
+                "fizz"
+            }
+            number % 5 == 0 -> {
+                "buzz"
+            }
+            else -> number.toString()
         }
-        return number.toString()
     }
 
 }
