@@ -1,0 +1,1 @@
+C:\Users\user\IdeaProjects\FizzBuzzTest\build\classes\kotlin\main\FizzBuzz.class
